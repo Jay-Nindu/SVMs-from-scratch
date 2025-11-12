@@ -1,6 +1,9 @@
 # SVMs-from-scratch
 Support vector machines are a staple of ML classification algorithms. This project aims to implement SVMs from scratch, in c++, and to detail the theory behind them.
 
+## Comparing my support vector machine to sci-kit-learn
+
+
 ## The theory
 A support vector machine aims to create a hyperplane (defined b the equation $wx + b = 0$) that separates two sets of data into two labels (+1 or -1) with as large a margin as possible between the two data sets. We normalise the hyperplane based on the closest points of the hyperplane, so that each of $|wx+b| = 1$ In summary:
 - $y_i = +1 \implies wx + b > 1$
